@@ -10,6 +10,8 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final String TAG = MainActivity.class.getSimpleName();
+
     TypedArray contact_names;
     TypedArray profile_pics;
     TypedArray status_list;
