@@ -3,6 +3,7 @@ package mandar.capgemini.org.whatsapplistview;
 import android.content.res.TypedArray;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.d(TAG, "Hello");
         setContentView(R.layout.activity_main);
 
         contact_names = getResources().obtainTypedArray(R.array.contactNames);
