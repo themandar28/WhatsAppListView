@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">WhatsAppListView</string>
+
+    <string-array name="contactNames">
+        <item>Sushil</item>
+        <item>Chetan</item>
+        <item>Ajit</item>
+        <item>Babasaheb</item>
+        <item>Kiran</item>
+    </string-array>
+
+    <array name="contactPhotos">
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+    </array>
+
+    <string-array name="contactStatus">
+        <item>Available</item>
+        <item>Busy</item>
+        <item>At the movies</item>
+        <item>At the gym</item>
+        <item>Can\'t talk what\'s app only</item>
+    </string-array>
+
+    <string-array name="contactTypes">
+        <item>Mobile</item>
+        <item>Home</item>
+        <item>Work</item>
+        <item>Fax</item>
+        <item>Outside</item>
+    </string-array>
+</resources>
